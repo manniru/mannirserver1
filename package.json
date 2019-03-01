@@ -1,0 +1,11 @@
+{
+  "name": "my-zero-app",
+  "scripts": {
+    "dev": "zero",
+    "build": "zero build",
+    "start": "PORT=1313 API_URL=http://localhost:1313 NODE_ENV=production zero"
+  },
+  "dependencies": {
+    "zero": "*"
+  }
+}
