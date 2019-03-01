@@ -1,11 +1,14 @@
 {
   "name": "my-zero-app",
   "scripts": {
-    "dev": "zero",
+    "dev": "PORT=1313 zero",
     "build": "zero build",
     "start": "PORT=1313 API_URL=http://localhost:1313 NODE_ENV=production zero"
   },
   "dependencies": {
+    "faker": "^4.1.0",
+    "knex": "^0.16.3",
+    "sqlite3": "^4.0.6",
     "zero": "*"
   }
 }
